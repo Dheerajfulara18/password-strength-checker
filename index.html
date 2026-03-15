@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Smart Password Analyzer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="background-shapes"></div>
+
+<div class="container">
+
+<h1>🔐 Smart Password Analyzer</h1>
+
+<div class="input-box">
+
+<input type="password" id="password" placeholder="Enter your password">
+
+<i class="fa-solid fa-eye" onclick="togglePassword()" id="eye"></i>
+
+</div>
+
+<div class="strength-bar">
+
+<div id="strength"></div>
+
+</div>
+
+<p id="strengthText"></p>
+
+<div class="rules">
+
+<p id="length">✔ Minimum 8 characters</p>
+
+<p id="upper">✔ Uppercase letter</p>
+
+<p id="number">✔ Number</p>
+
+<p id="special">✔ Special character</p>
+
+</div>
+
+<p id="crackTime"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
